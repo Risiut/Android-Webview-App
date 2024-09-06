@@ -3,7 +3,7 @@ workflows:
         name: Android app # workflow name
         instance_type: mac_mini_m1
         scripts:
-            - ./gradlew assembleDebug
+            - ./gradlew
         artifacts:
             - build/outputs/**/**/*.apk
 
